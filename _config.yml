@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "Mishmash"
+title: "Medium Mishmash"
+description: "My mediumish space to write down thoughts and project into the internet void."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
@@ -11,9 +11,9 @@ baseurl: "/blog"
 production_url : http://kimbarros.com/blog
 BASE_PATH : http://kimbarros.com/blog
 
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+google_analytics: ''
+disqus: ''
+mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
@@ -69,8 +69,8 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
