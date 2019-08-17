@@ -3,7 +3,7 @@ name: "Mishmash"
 title: "Mediumish Mishmash"
 description: "My mediumish space to write down thoughts and project my voice into the void."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://kimbarros.com" # the base hostname & protocol for your site, e.g. http://example.com
 
