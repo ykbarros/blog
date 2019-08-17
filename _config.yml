@@ -1,7 +1,7 @@
 # Site
 name: "Mishmash"
-title: "Medium Mishmash"
-description: "My mediumish space to write down thoughts and project into the internet void."
+title: "Mediumish Mishmash"
+description: "My mediumish space to write down thoughts and project my voice into the void."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
