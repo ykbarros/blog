@@ -1,15 +1,25 @@
-# Site
-name: "Mishmash"
-title: "Mediumish Mishmash"
-description: "My mediumish space to write down thoughts and project my voice into the void."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Hitchens
+email: hello@patdryburgh.com
+description: >- # this means to ignore newlines until "baseurl:"
+  An inarguably well-designed Jekyll theme.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://kimbarros.com" # the base hostname & protocol for your site, e.g. http://example.com
-production_url : http://kimbarros.com/blog
-BASE_PATH : http://kimbarros.com/blog
-theme: hitchens-theme
-ignore_theme_config: true
+icon: /assets/images/icon-512.png
 
 google_analytics: ''
 disqus: ''
@@ -17,62 +27,23 @@ mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
-# Authors
-authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-
-# Pagination
-paginate: 6
-paginate_path: /page:num/
-
-# Other
+# Build settings
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: ""
-adsense-data-ad-slot: ""
+plugins:
+  - jekyll-paginate
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+paginate: 3
+paginate_path: "/page/:num/"
