@@ -18,7 +18,7 @@ email: yeji@kimbarros.com
 description: >- # this means to ignore newlines until "baseurl:"
   Specs from a Product Manager
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://kimbarros.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kimbarros.com" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
 theme: hitchens-theme
 
